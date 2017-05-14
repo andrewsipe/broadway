@@ -26,7 +26,10 @@ h3 {
 }
 
 /* head */
-nav {
+#head div{
+  background-image: url("./resources/images/the-flatiron-building.png");
+}
+#head a {
   font-size: 18px;
   color: white;
 }
