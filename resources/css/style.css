@@ -1,57 +1,78 @@
 /* everything */
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  color: dimgray;
-  background-color: white;
-  text-align: center;
+    font-size       : 14px;
+    font-family     : Helvetica, Arial, sans-serif;
+    font-weight     : bold;
+    color           : dimgray;
+    background-color: white;
+    text-align      : center;
 }
 
 p {
-  font-size: 14px;
-  font-weight: normal;
+    font-size  : 14px;
+    font-weight: normal;
 }
 
 h1 {
-  color: white;
-  font-size: 70px;
+    color    : white;
+    font-size: 70px;
 }
 
 h2 {
-  font-size: 32px;
+    font-size: 32px;
 }
 
 h3 {
-  font-size: 23px;
+    font-size: 23px;
+}
+
+h4 {
+    font-size: 23px;
+    color    : white;
 }
 
 /* head */
-#head div{
-  background-image: url("./resources/images/the-flatiron-building.png");
+#head {
+    background-image: url("../images/the-flatiron-building.png");
 }
+
 #head a {
-  font-size: 18px;
-  color: white;
+    font-size: 18px;
+    color    : white;
+}
+
+#head li {
+    list-style: none;
 }
 
 /* process */
 #process img {
-  background-color: white;
+    background-color: white;
 }
 
 /* elements */
-#elements h3 {
-  color: white;
-  background-image: url("./resources/images/the-flatiron-building.png");
+#elements h4 {
+    background-image: url("../images/the-flatiron-building.png");
 }
 
 /* foot */
 #foot {
-  background-color: dimgray;
-  color: white;
-  font-size: 11px;
+    text-align      : left;
+    background-color: dimgray;
+    color           : white;
+    font-size       : 11px;
+    font-weight     : normal;
 }
 
-#footer nav {
-  float:right;
+#foot p {
+    display    : inline;
+    color      : white;
+    font-size  : 11px;
+    font-weight: normal;
+}
+
+#foot a {
+    display  : inline;
+    color    : white;
+    font-size: 18px;
 }
